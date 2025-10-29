@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Future Tech AR — Tecnología Apple</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Future Tech AR — Equipos Apple nuevos, garantía internacional, envíos a todo el país.">
+</head>
+<body>
+  <div class="splash" id="splash">
+    <img src="logo_futuretech.png" alt="Future Tech AR logo">
+  </div>
+
+  <header>
+    <div class="container header-inner">
+      <img src="logo_futuretech.png" class="logo" alt="Future Tech AR">
+      <nav>
+        <a href="catalogo.html">Dispositivos</a>
+        <a href="https://www.instagram.com/futuretech.ar" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/5493584409995" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img class="bg" src="hero_futuretech.jpg" alt="Portada Future Tech AR">
+    <div class="overlay">
+      <div>
+        <h1>Líderes en tecnología Apple</h1>
+        <p>Equipos nuevos con garantía internacional</p>
+        <a class="btn" href="catalogo.html">Ver dispositivos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:36px 0 8px;">
+    <p><strong>Somos Future Tech AR</strong>, especialistas en tecnología Apple. Ofrecemos equipos nuevos, garantía internacional y atención personalizada en toda Argentina. Trabajamos con modelos actuales de iPhone, Mac y accesorios originales.</p>
+  </section>
+
+  <section class="why">
+    <div class="container">
+      <h2>¿Por qué elegirnos?</h2>
+      <div class="why-grid">
+        <div class="card">
+          <h3>Garantía internacional</h3>
+          <p>Productos 100% originales con respaldo y ticket.</p>
+        </div>
+        <div class="card">
+          <h3>Envíos a todo el país</h3>
+          <p>Entregas rápidas y seguimiento en tiempo real.</p>
+        </div>
+        <div class="card">
+          <h3>Atención personalizada</h3>
+          <p>Asesoramiento por WhatsApp para elegir tu equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="badge"><i>⬤</i> Future Tech AR</span>
+      <small>© <span id="year"></span> — Todos los derechos reservados</small>
+    </div>
+  </footer>
+
+  <script>
+    setTimeout(()=> document.getElementById('splash').classList.add('hidden'), 2000);
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
